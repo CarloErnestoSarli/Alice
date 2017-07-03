@@ -1,0 +1,31 @@
+#home {
+    background: url(images/header.jpg);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+}
+
+#home_text {
+    padding: 100px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.cl_white {
+    color: white;
+}
+
+img {
+    width: 300px;
+    transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+    opacity: .5;
+}

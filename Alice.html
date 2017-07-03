@@ -1,63 +1,100 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 
 <head>
     <title> Alice's Osteopathy Clinic </title>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Alice.css" />
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <style>
-        section {
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!--<nav class="navbar navbar-default navbar-fixed-top">
         <ul class="nav navbar-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">About Me</a></li>
             <li><a href="#">Services I offer</a></li>
             <li><a href="#">Contact me</a></li>
         </ul>
+    </nav>-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">Logo</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services I offer</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <section id="home" style="background: url(images/header.jpg); background-size: 100% 100%; ">
-        <div class="jumbotron text-center">
-            <h1> My Awesome Clinic</h1>
-            <p class="lead"> I will massage the pain away</p>
+
+    <section id="home">
+        <div id="home_text" class="cl_white">
+            <h1> My Awesome Clinic </h1>
+            <p class="lead">I will massage the pain away</p>
+            <button class="btn btn-default">Contact me</button>
         </div>
     </section>
-    <div class="about-me">
-        <h2> Hi! </h2>
-        <p> my name is Alice and I'm an osteopath</p>
-        <button class="btn btn-default"> hello </button>
-    </div>
-    <div class="services">
-        <div class="row">
-            <div class="col-sm-4">
-                <h3> column1 </h3>
-                <p> lorem ipsum sin dolore wahatevya in pig latin it does not really matter</p>
+
+    <section id="about">
+        <div class="about-me text-center">
+            <h1> Hi! </h1>
+            <p> my name is Alice and I'm an osteopathy student</p>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="page-header">
+            <h1>What I offer</h1>
+        </div>
+        <img src="images/example_1.jpg" class="img-thumbnail">
+        <img src="images/example_3.jpg" class="img-thumbnail">
+        <img src="images/example_1.jpg" class="img-thumbnail">
+        <img src="images/example_3.jpg" class="img-thumbnail">
+        <img src="images/example_1.jpg" class="img-thumbnail">
+        <img src="images/example_3.jpg" class="img-thumbnail">
+    </section>
+    <section>
+        <div class="services">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3> column1 </h3>
+                    <p> lorem ipsum sin dolore wahatevya in pig latin it does not really matter</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3> column2 </h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3> column3 </h3>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <h3> column2 </h3>
-            </div>
-            <div class="col-sm-4">
-                <h3> column3 </h3>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3> column1 </h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3> column2 </h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3> column3 </h3>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-4">
-                <h3> column1 </h3>
-            </div>
-            <div class="col-sm-4">
-                <h3> column2 </h3>
-            </div>
-            <div class="col-sm-4">
-                <h3> column3 </h3>
-            </div>
-        </div>
-    </div>
+    </section>
 </body>
