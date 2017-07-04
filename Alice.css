@@ -1,3 +1,11 @@
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+}
+
 #home {
     background: url(images/header.jpg);
     background-size: 100% 100%;
@@ -8,9 +16,6 @@
 
 #home_text {
     padding: 100px;
-    top: 50%;
-    left: 50%;
-    text-align: center;
 }
 
 h1 {
@@ -19,6 +24,14 @@ h1 {
 
 .cl_white {
     color: white;
+}
+
+#about {
+    padding: 50px;
+}
+
+#services {
+    padding: 50px;
 }
 
 .member {
@@ -41,6 +54,50 @@ img:hover {
     column-count: 3;
 }
 
-#contact-me {
-    background: whitesmoke;
+#name-field {
+    border: 2px solid grey;
+}
+
+#email-field {
+    border: 2px solid grey;
+}
+
+#subject-field {
+    border: 2px solid grey;
+}
+
+#message-field {
+    border: 2px solid grey;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: black;
+}
+
+
+/* WebKit, Blink, Edge */
+
+.form-control:-moz-placeholder {
+    color: black;
+}
+
+
+/* Mozilla Firefox 4 to 18 */
+
+.form-control::-moz-placeholder {
+    color: black;
+}
+
+
+/* Mozilla Firefox 19+ */
+
+.form-control:-ms-input-placeholder {
+    color: black;
+}
+
+
+/* Internet Explorer 10-11 */
+
+.form-control::-ms-input-placeholder {
+    color: black;
 }
