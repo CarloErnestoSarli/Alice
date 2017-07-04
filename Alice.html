@@ -38,7 +38,7 @@
                     <li><a href="#services">Services I offer</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#contact-me">Contact me</a></li>
                 </ul>
             </div>
         </div>
@@ -52,10 +52,14 @@
         </div>
     </section>
 
-    <section id="about">
+    <section id="about" class="container">
         <div class="about-me text-center">
             <h1> Hi! </h1>
-            <p> my name is Alice and I'm an osteopathy student</p>
+            <h2>My name is Alice and I am an osteopathy Student</h2>
+            <p class="lead"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel
+                eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
         </div>
     </section>
 
@@ -64,39 +68,68 @@
             <h1 class="text-center">What I offer</h1>
         </div>
         <div id="image-grid" class="row text-center">
-            <img src="images/example_1.jpg" class="img-thumbnail">
-            <img src="images/example_3.jpg" class="img-thumbnail">
-            <img src="images/example_1.jpg" class="img-thumbnail">
-            <img src="images/example_3.jpg" class="img-thumbnail">
-            <img src="images/example_1.jpg" class="img-thumbnail">
-            <img src="images/example_3.jpg" class="img-thumbnail">
+            <div class="member">
+                <img src="images/example_1.jpg" class="img-thumbnail">
+                <div class="name">
+                    <h3>Name</h3>
+                    <br /> Description
+                </div>
+            </div>
+            <div class="member">
+                <img src="images/example_3.jpg" class="img-thumbnail">
+                <div class="name">
+                    <h3>Name</h3>
+                    <br /> Description
+                </div>
+            </div>
+            <div class="member">
+                <img src="images/example_1.jpg" class="img-thumbnail">
+                <div class="name">
+                    <h3>Name</h3>
+                    <br /> Description
+                </div>
+            </div>
+            <div class="member">
+                <img src="images/example_3.jpg" class="img-thumbnail">
+                <div class="name">
+                    <h3>Name</h3>
+                    <br /> Description
+                </div>
+            </div>
+            <div class="member">
+                <img src="images/example_1.jpg" class="img-thumbnail">
+                <div class="name">
+                    <h3>Name</h3>
+                    <br /> Description
+                </div>
+            </div>
+            <div class="member">
+                <img src="images/example_3.jpg" class="img-thumbnail">
+                <div class="name">
+                    <h3>Name</h3>
+                    <br /> Description
+                </div>
+            </div>
         </div>
     </section>
-    <section>
-        <div class="services">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3> column1 </h3>
-                    <p> lorem ipsum sin dolore wahatevya in pig latin it does not really matter</p>
-                </div>
-                <div class="col-sm-4">
-                    <h3> column2 </h3>
-                </div>
-                <div class="col-sm-4">
-                    <h3> column3 </h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3> column1 </h3>
-                </div>
-                <div class="col-sm-4">
-                    <h3> column2 </h3>
-                </div>
-                <div class="col-sm-4">
-                    <h3> column3 </h3>
-                </div>
-            </div>
+    <section id="contact-me">
+        <div class="page-header">
+            <h1 class="text-center">Contact me</h1>
         </div>
+        <hr>
+        <form class="col-md-5 col-md-offset-4">
+            <div class="form-group">
+                <input class="form-control" placeholder="your name" type="text">
+            </div>
+            <div class="form-group">
+                <input class="form-control" placeholder="your email" type="text">
+            </div>
+            <div class="form-group">
+                <input class="form-control" placeholder="Subject" type="text">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" type="text">Message</textarea>
+            </div>
+        </form>
     </section>
 </body>

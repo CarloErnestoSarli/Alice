@@ -2,7 +2,7 @@
     background: url(images/header.jpg);
     background-size: 100% 100%;
     width: 100vw;
-    height: 100vh;
+    height: 60%;
     padding: 50px;
 }
 
@@ -21,6 +21,12 @@ h1 {
     color: white;
 }
 
+.member {
+    float: left;
+    width: 31%;
+    margin: 1% 1% 45px 1%;
+}
+
 img {
     align-content: center;
     width: 300px;
@@ -31,8 +37,10 @@ img:hover {
     opacity: .5;
 }
 
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.col-text {
+    column-count: 3;
+}
+
+#contact-me {
+    background: whitesmoke;
 }
